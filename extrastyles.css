@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    max-width: none !important;
+}
+
+.content {
+    padding: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em !important;
+    font-weight: 600 !important;
+}
+
+a ion-icon {
+    width: 1.75rem;
+    height: 1.5rem;
+    display: inline-block;
+    padding-bottom: 2em;
+    position: absolute;
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+a span {
+    margin-left: 50px;
+}
+
+li {
+    transition: all 0.2s;
+    padding: 2px;
+    width: 20em;
+    border-radius: .2em;
+}
+
+li:hover {
+    background: rgb(17, 17, 19);
+}
+
+body {
+    background: linear-gradient(120deg, #0D0D0F 50%, #151722);
+    background-repeat: repeat !important;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+        height: auto;
+    }
+}

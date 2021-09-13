@@ -1,4 +1,4 @@
-<!-- Redirect to project pages under 0aoq.github.io/0aoq -->
+<!-- page about me ig!! -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,67 +11,7 @@
 
     <link rel="stylesheet" href="https://0aoq.github.io/FluentUi/styles/main.css">
     <link rel="stylesheet" href="https://0aoq.github.io/FluentUi/styles/elements.css">
-
-    <style>
-        * {
-            padding: 0;
-            max-width: none !important;
-        }
-        
-        .content {
-            padding: 40px;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin: 0;
-        }
-        
-        h1 {
-            font-size: 2.5em !important;
-            font-weight: 600 !important;
-        }
-        
-        a ion-icon {
-            width: 1.75rem;
-            height: 1.5rem;
-            display: inline-block;
-            padding-bottom: 2em;
-            position: absolute;
-            transition: opacity 0.2s ease, background-color 0.2s ease;
-        }
-        
-        a span {
-            margin-left: 50px;
-        }
-        
-        li {
-            transition: all 0.2s;
-            padding: 2px;
-            width: 20em;
-            border-radius: .2em;
-        }
-        
-        li:hover {
-            background: rgb(17, 17, 19);
-        }
-        
-        body {
-            background: linear-gradient(120deg, #0D0D0F 50%, #151722);
-            background-repeat: repeat !important;
-            height: 100vh;
-        }
-        
-        @media screen and (max-width: 1250px) {
-            body {
-                height: auto;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="extrastyles.css">
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
@@ -93,6 +33,10 @@
             <li style="margin-bottom: 12px;">
                 <a href="https://0aoq.github.io/?FluentUi" class="arrow-link text small">
                     <ion-icon name="build"></ion-icon><span>Fluent</span></a>
+            </li>
+            <li style="margin-bottom: 12px;">
+                <a href="https://0aoq.github.io/Fluent/view" class="arrow-link text small">
+                    <ion-icon name="cube"></ion-icon><span>Fluent Docs (Soon)</span></a>
             </li>
             <li style="margin-bottom: 12px;">
                 <a href="https://0aoq.github.io/?dispute" class="arrow-link text small">
@@ -128,7 +72,7 @@
                     <ion-icon name="logo-github"></ion-icon><span>Github</span></a>
             </li>
             <li style="margin-bottom: 12px;">
-                <a href="#" class="text small">
+                <a href="#" class="text small" id="discord_copy">
                     <ion-icon name="logo-discord"></ion-icon><span>Discord: 0aoq#0001</span></a>
             </li>
         </ul>
@@ -137,13 +81,6 @@
         <p>Full list of redirects can be found <a href="https://github.com/0aoq/0aoq/tree/main/projects"><b>here</b></a>.
             <br><a href="https://0aoq.github.io">https://0aoq.github.io/?PROJECT_NAME</a></p>
     </div>
-
-    <script>
-        const id = window.location.search.slice(1)
-        if (id) {
-            window.location = "https://0aoq.github.io/0aoq/projects/" + id
-        }
-    </script>
 </body>
 
 </html>
